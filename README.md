@@ -14,7 +14,8 @@ WHERE,"Służy do filtrowania wierszy. Określa warunek, który musi być spełn
 
 
 
-#Zadnaie2: Cel: Wybór unikalnych, posortowanych malejąco rodzajów wyrobów.
+#Zadnaie2: 
+Cel: Wybór unikalnych, posortowanych malejąco rodzajów wyrobów.
 
 
 SQL:
@@ -31,3 +32,29 @@ Rodzaj DESC,Sortuje wyniki na podstawie kolumny Rodzaj w kolejności malejącej 
 <img width="1012" height="758" alt="obraz" src="https://github.com/user-attachments/assets/1f4a0ebd-cec3-4fed-8104-f93fb391f673" />
 
 
+#Zadanie 4: 
+Cel: Wybór pól ID oraz Nazwa dla wyrobów, których nazwa zawiera słowo "Chałka".
+
+Kwerenda:
+SQL
+
+SELECT ID, Nazwa
+FROM wyroby
+WHERE Nazwa LIKE '%Chałka%';
+
+Opis:
+Komenda/Klauzula,Opis
+WHERE,Służy do filtrowania wierszy.
+LIKE,Operator używany w klauzuli WHERE do wyszukiwania określonego wzorca w kolumnie.
+'%Chałka%',"Wzorzec wyszukiwania. Znak % (procent) jest symbolem wieloznacznym, który zastępuje dowolną sekwencję znaków (lub brak znaków). W tym przypadku oznacza to: znajdź wiersze, w których Nazwa zawiera słowo ""Chałka"" (może być coś przed i coś po)."
+
+
+Zadanie3:
+Cel: Wybór pól ID oraz Nazwa dla wyrobów, których nazwa zawiera słowo "Chałka".
+
+Kwerenda:
+SQL
+
+SELECT ID, Nazwa
+FROM wyroby
+WHERE Nazwa LIKE '%Chałka%';

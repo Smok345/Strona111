@@ -68,4 +68,29 @@ LIKE,Operator używany w klauzuli WHERE do wyszukiwania określonego wzorca w ko
 
 
 <img width="755" height="716" alt="obraz" src="https://github.com/user-attachments/assets/1c1cb11f-df15-45ef-93d7-4c6809b64e09" />
+#Zadanie4:
+
+Cel: Wybór pola Rodzaj oraz obliczenie średniej ceny dla każdej grupy wyrobów, zaokrąglonej do dwóch miejsc po przecinku, z aliasem "Średnia cena".
+Komendy:
+SQL
+
+SELECT
+    Rodzaj,
+    ROUND(AVG(Cena), 2) AS "Średnia cena"
+FROM
+    wyroby
+GROUP BY
+    Rodzaj;
+Opis:
+Komenda/Klauzula,Opis
+AVG(Cena),Funkcja agregująca obliczająca średnią wartość kolumny Cena w danej grupie wierszy.
+"ROUND(..., 2)",Funkcja matematyczna zaokrąglająca wartość. W tym przypadku zaokrągla wynik AVG(Cena) do 2 miejsc po przecinku.
+"AS ""Średnia cena""",Nadaje nowo utworzonej kolumnie obliczeniowej czytelny alias (nazwę).
+GROUP BY,Grupuje wiersze o tych samych wartościach w kolumnie Rodzaj w grupy. Funkcja agregująca (AVG) jest następnie stosowana do każdej z tych grup z osobna.
+
+
+<img width="692" height="828" alt="obraz" src="https://github.com/user-attachments/assets/cb7ddc03-0735-45fb-a419-321bbfa2cbc0" />
+
+
+
 

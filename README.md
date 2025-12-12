@@ -65,3 +65,7 @@ Komenda/Klauzula,Opis
 WHERE,Służy do filtrowania wierszy.
 LIKE,Operator używany w klauzuli WHERE do wyszukiwania określonego wzorca w kolumnie.
 '%Chałka%',"Wzorzec wyszukiwania. Znak % (procent) jest symbolem wieloznacznym, który zastępuje dowolną sekwencję znaków (lub brak znaków). W tym przypadku oznacza to: znajdź wiersze, w których Nazwa zawiera słowo ""Chałka"" (może być coś przed i coś po)."
+
+
+<img width="755" height="716" alt="obraz" src="https://github.com/user-attachments/assets/1c1cb11f-df15-45ef-93d7-4c6809b64e09" />
+

@@ -10,6 +10,8 @@ SELECT,"Wskazuje kolumny, które mają zostać zwrócone w wyniku zapytania."
 FROM wyroby,"Wskazuje tabelę, z której dane mają być pobrane (w tym przypadku wyroby)."
 WHERE,"Służy do filtrowania wierszy. Określa warunek, który musi być spełniony, aby wiersz został włączony do wyniku."
 'INNE',"Warunek filtrujący: tylko wiersze, gdzie wartość w kolumnie Rodzaj jest równa 'INNE'."
+<img width="870" height="767" alt="obraz" src="https://github.com/user-attachments/assets/da9e5112-5322-4c4a-9d47-f0c775a04f6b" />
+
 
 
 #Zadnaie2: Cel: Wybór unikalnych, posortowanych malejąco rodzajów wyrobów.

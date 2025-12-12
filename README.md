@@ -10,7 +10,8 @@ SELECT,"Wskazuje kolumny, które mają zostać zwrócone w wyniku zapytania."
 FROM wyroby,"Wskazuje tabelę, z której dane mają być pobrane (w tym przypadku wyroby)."
 WHERE,"Służy do filtrowania wierszy. Określa warunek, który musi być spełniony, aby wiersz został włączony do wyniku."
 'INNE',"Warunek filtrujący: tylko wiersze, gdzie wartość w kolumnie Rodzaj jest równa 'INNE'."
-<img width="870" height="767" alt="obraz" src="https://github.com/user-attachments/assets/da9e5112-5322-4c4a-9d47-f0c775a04f6b" />
+<img width="586" height="670" alt="obraz" src="https://github.com/user-attachments/assets/6687cdfc-72cd-437d-affe-7e887d5aaa3c" />
+
 
 
 
@@ -29,7 +30,8 @@ SELECT DISTINCT,"Instrukcja SELECT połączona z klauzulą DISTINCT. DISTINCT za
 ORDER BY,Służy do sortowania zwróconych wyników.
 Rodzaj DESC,Sortuje wyniki na podstawie kolumny Rodzaj w kolejności malejącej (DESC - Descending).
 
-<img width="1012" height="758" alt="obraz" src="https://github.com/user-attachments/assets/1f4a0ebd-cec3-4fed-8104-f93fb391f673" />
+<img width="522" height="820" alt="obraz" src="https://github.com/user-attachments/assets/16be47f0-a334-4550-a318-e29d515bb3d4" />
+
 
 
 #Zadanie 4: 

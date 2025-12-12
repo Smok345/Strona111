@@ -34,23 +34,6 @@ Rodzaj DESC,Sortuje wyniki na podstawie kolumny Rodzaj w kolejności malejącej 
 
 
 
-#Zadanie : 
-Cel: Wybór pól ID oraz Nazwa dla wyrobów, których nazwa zawiera słowo "Chałka".
-
-Kwerenda:
-SQL
-
-SELECT ID, Nazwa
-FROM wyroby
-WHERE Nazwa LIKE '%Chałka%';
-
-Opis:
-Komenda/Klauzula,Opis
-WHERE,Służy do filtrowania wierszy.
-LIKE,Operator używany w klauzuli WHERE do wyszukiwania określonego wzorca w kolumnie.
-'%Chałka%',"Wzorzec wyszukiwania. Znak % (procent) jest symbolem wieloznacznym, który zastępuje dowolną sekwencję znaków (lub brak znaków). W tym przypadku oznacza to: znajdź wiersze, w których Nazwa zawiera słowo ""Chałka"" (może być coś przed i coś po)."
-
-
 Zadanie3:
 Cel: Wybór pól ID oraz Nazwa dla wyrobów, których nazwa zawiera słowo "Chałka".
 

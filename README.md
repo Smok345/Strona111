@@ -25,7 +25,8 @@ http://localhost/sklep/index.html
 
 rezultat:
 
-<img width="1910" height="650" alt="image" src="https://github.com/user-attachments/assets/9281b0c7-42d0-4300-8deb-5961cd11dcb4" />
+<img width="861" height="595" alt="image" src="https://github.com/user-attachments/assets/75377143-3057-42da-b6df-e9ece625eaef" />
+
 
 po wciśnięciu przycisku przejdź do produktów przekierowuje nas do strony z produktami gdzie możemy sortować dane:
 

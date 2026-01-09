@@ -9,6 +9,7 @@ jak mozna zobaczyc to samo pojawia sie w xampp:
 <img width="134" height="92" alt="image" src="https://github.com/user-attachments/assets/912556fd-84fe-4242-be39-fbce3ddef68e" />
 
 teraz robie storne internetowa:
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -74,6 +75,8 @@ teraz robie storne internetowa:
 
 </body>
 </html>
+
+
 --------------------------------------------------------------------------------------------------------------
 Zapisuje to jako pli html i wklejam tam gdzie mam folder pliki i baze danych:
 

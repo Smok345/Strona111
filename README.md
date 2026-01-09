@@ -41,6 +41,8 @@ tutaj możemy wybierać kategorie np Akcesoria:
 -----------------------------------------------------------------------------------------------------------------------------------------
 Na dodatkową ocene:
 #Co zmieniłem:
+
+
 $sortowanie = isset($_GET['sort']) ? $_GET['sort'] : "cena_asc";
 switch ($sortowanie) {
     case 'cena_desc': $order_sql = "p.cena DESC"; break;
@@ -62,5 +64,10 @@ switch ($sortowanie) {
 Rezultat:
 
 <img width="781" height="291" alt="image" src="https://github.com/user-attachments/assets/208cb4e9-0bba-4db6-a8c7-0a7ddf2faf62" />
+
+<img width="780" height="270" alt="image" src="https://github.com/user-attachments/assets/5ed2d3a2-f79d-4a28-a9ed-515aa0b91f8b" />
+
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 

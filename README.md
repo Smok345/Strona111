@@ -1,5 +1,5 @@
 ## zaczynam od importowania bazy danych oraz prodów.
-oraz wklejenia ich do folderu sklep w XAMPP:     ## XAMPP -> htdocs
+oraz wklejenia ich do folderu sklep w XAMPP:     ##XAMPP -> htdocs
 
 <img width="874" height="249" alt="image" src="https://github.com/user-attachments/assets/5e82826c-424e-49ee-8805-b95d3b209757" />
 

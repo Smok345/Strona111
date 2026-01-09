@@ -21,7 +21,7 @@ Zapisuje to jako plik html i wklejam tam gdzie mam folder pliki i baze danych:
 
 jak teraz go uruchamiam wypisując:
 
-http://localhost/sklep/index.html
+http://localhost/sklep/strona.html
 
 rezultat:
 
